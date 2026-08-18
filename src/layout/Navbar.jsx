@@ -17,6 +17,8 @@ const Navbar = () => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
         setisScrolled(true);
+      } else {
+        setisScrolled(false);
       }
     };
 

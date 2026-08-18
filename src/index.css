@@ -24,9 +24,10 @@
 }
 
 @layer base{
-  html{
+   html{
     scroll-behavior: smooth;
-  }
+    overflow-x: hidden;      /* ← add this */
+    max-width: 100%; }
   body{
 background-color: var(--color-background);
 color: var(--color-foreground);
