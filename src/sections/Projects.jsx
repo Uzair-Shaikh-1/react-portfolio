@@ -153,8 +153,6 @@ const Projects = () => {
                 bg-linear-to-t from-card via-card/50
                  to-transparent opacity-60"
                   />
-
-                  {/* overlay links */}
                 </div>
 
                 {/* content */}
@@ -163,7 +161,7 @@ const Projects = () => {
                     <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
                       {project.title}
                     </h3>
-                    <div className="flex justify-center align-center">
+                    <div className="flex justify-center align-center gap-2">
                       {" "}
                       <a
                         href={project.link}

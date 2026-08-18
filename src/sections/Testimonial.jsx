@@ -2,7 +2,7 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 const Testimonial = () => {
   return (
-    <section id="testimonials" className="py-32 relative overflow-hidden">
+    <section id="Testimonials" className="py-32 relative overflow-hidden">
       <div
         className="absolute top-1/2 left-1/2
        w-[800px] h-[800px] bg-primary/5
