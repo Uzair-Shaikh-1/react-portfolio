@@ -137,7 +137,7 @@ const Projects = () => {
           {projects.map((project, idx) => {
             return (
               <div
-                className="group class rounded-2xl overflow-hidden animate-fade-in"
+                className="group glass rounded-2xl overflow-hidden animate-fade-in"
                 style={{ animationDelay: `${(idx + 1) * 100}ms` }}
                 key={idx}
               >
